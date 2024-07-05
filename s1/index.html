@@ -4,9 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>淘宝网 - 淘！我喜欢</title>
+  <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  
+  <header class="hd">
+    <a class="hd-left" href="https://www.taobao.com" target="_blank">
+      <img class="hd-logo" src="./assets/tb_logo.png" alt="taobao" />
+    </a>
+    <div class="hd-right">
+      <a href="javascript:void(0)" class="hd-right-link">网站无障碍</a>
+      <a href="javascript:void(0)" class="hd-right-link">
+        <img class="hd-right-dialog" src="./assets/icon_dialog.png" alt="dialog" />"登录页面"改进建议
+      </a>
+    </div>
+  </header>
+
+  <main class="bd">
+    <section class="inlogin">
+      <div class="inlogin-type">
+        <a href="javascript:void(0)" class="inlogin-type-btn z-sel">密码登录</a>
+        <a href="javascript:void(0)" class="inlogin-type-btn">短信登录</a>
+      </div>
+
+      <div class="inlogin-cnt">
+        <div class="inlogin-cnt-field">
+          <input type="text" class="inlogin-cnt-input" placeholder="账号名/邮箱/手机号" />
+        </div>
+        <div class="inlogin-cnt-field">
+          <input type="password" class="inlogin-cnt-input" placeholder="请输入登录密码" />
+          <a href="javascript:void(0)" class="inlogin-cnt-eye">
+            <img class="inlogin-cnt-eye-icon" src="./assets/icon_eye_close.png" alt="eye" />
+          </a>
+        </div>
+        <button class="inlogin-cnt-btn">登录</button>
+        <div class="inlogin-cnt-nav inlogin-cnt-nav--first-row">
+          <a href="javascript:void(0)" class="inlogin-cnt-nav-item">
+            <img class="inlogin-cnt-nav-icon" src="./assets/icon_logo_alipay.png" alt="alipay" />支付宝登录
+          </a>
+          <a href="javascript:void(0)" class="inlogin-cnt-nav-item">
+            <img class="inlogin-cnt-nav-icon" src="./assets/icon_logo_dingtalk.png" alt="dingtalk" />钉钉登录
+          </a>
+        </div>
+        <div class="inlogin-cnt-nav">
+          <a href="javascript:void(0)" class="inlogin-cnt-nav-item">免费注册</a>
+          <a href="javascript:void(0)" class="inlogin-cnt-nav-item">忘记账号名</a>
+          <a href="javascript:void(0)" class="inlogin-cnt-nav-item">忘记密码</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="qrlogin">
+      <h2 class="qrlogin-tt">手机扫码安全登录</h2>
+      <div class="qrlogin-bd">
+        <img src="./assets/qrcode.png" alt="qrcode" class="qrlogin-qrcode">
+      </div>
+      <p class="qrlogin-tips">
+        打开
+        <img class="qrlogin-tips-logo" src="./assets/icon_logo_tb.png" alt="dingtalk" />
+        <strong class="qrlogin-tips-tb">淘宝</strong>
+        <img class="qrlogin-tips-logo" src="./assets/icon_logo_tm.png" alt="dingtalk" />
+        <strong class="qrlogin-tips-tm">天猫</strong>
+        APP扫码
+      </p>
+    </section>
+  </main>
 </body>
 </html>

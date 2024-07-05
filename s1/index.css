@@ -1,0 +1,207 @@
+body {
+  background-color: #f0eff2;
+}
+
+.hd {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.hd-logo {
+  width: 72px;
+  height: 42px;
+}
+.hd-right {
+  font-size: 12px;
+}
+.hd-right-link {
+  display: block;
+  margin-bottom: 4px;
+  color: #666;
+}
+.hd-right-link:hover {
+  color: #f40;
+}
+.hd-right-dialog {
+  width: 16px;
+  height: 14px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.bd {
+  width: 885px;
+  height: 514px;
+  margin: 111px auto 0;
+  background-color: #fff;
+  border-radius: 18px;
+  display: flex;
+  justify-content: flex-start;
+}
+.inlogin {
+  width: 511px;
+  padding: 0 80px;
+}
+.inlogin-type {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.inlogin-type-btn {
+  font-family: PingFang SC;
+  font-size: 22px;
+  font-weight: 600;
+  color: #11192d;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 20px;
+}
+.inlogin-type-btn:first-child {
+  border-right: 1px solid #e9ebee;
+}
+.inlogin-type-btn.z-sel {
+  color: #ff6200;
+}
+.inlogin-cnt {
+  margin-top: 50px;
+}
+.inlogin-cnt-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+.inlogin-cnt-input {
+  width: 350px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  color: #11192d;
+  background-color: #f4f6f8;
+}
+.inlogin-cnt-eye {
+  position: absolute;
+  cursor: default;
+  font-size: 0;
+  bottom: 20px;
+  right: 20px;
+}
+.inlogin-cnt-eye-icon {
+  width: 18px;
+  height: 13px;
+}
+.inlogin-cnt-btn {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  background-color: #ff6200;
+}
+.inlogin-cnt-btn:hover {
+  background-color: #f52b00;
+}
+.inlogin-cnt-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.inlogin-cnt-nav-item {
+  display: flex;
+  padding-right: 12px;
+  align-items: center;
+  font-size: 14px;
+  color: #50607a;
+  line-height: 14px;
+  height: 14px;
+}
+.inlogin-cnt-nav-item::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  margin-left: 12px;
+  background-color: #e5e8ec;
+}
+.inlogin-cnt-nav-item:last-child {
+  padding-right: 0;
+}
+.inlogin-cnt-nav-item:last-child::after {
+  display: none;
+}
+.inlogin-cnt-nav-icon {
+  margin-right: 4px;
+  width: 14px;
+  height: 14px;
+}
+.inlogin-cnt-nav--first-row .inlogin-cnt-nav-item:first-child {
+  padding-right: 16px;
+}
+
+.qrlogin {
+  width: 334px;
+  margin-top: 80px;
+  padding: 0 60px;
+}
+.qrlogin-tt {
+  font-family: PingFang SC;
+  font-size: 22px;
+  font-weight: bold;
+  color: #11192d;
+  line-height: 22px;
+  text-align: center;
+}
+.qrlogin-bd {
+  width: 214px;
+  height: 214px;
+  margin-top: 50px;
+  padding: 18px;
+  border: 1px solid #e5e8ec;
+  border-radius: 8px;
+}
+.qrlogin-qrcode {
+  width: 176px;
+  height: 176px;
+}
+.qrlogin-tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 53px;
+  font-size: 14px;
+  line-height: 14px;
+  height: 14px;
+  color: #50607a;
+}
+.qrlogin-tips-logo {
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+.qrlogin-tips-logo:first-of-type {
+  margin-left: 8px;
+}
+.qrlogin-tips-tb {
+  color: #ff6200;
+}
+.qrlogin-tips-tb:first-of-type::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: #e5e8ec;
+  margin: 0 6px;
+  vertical-align: middle;
+}
+.qrlogin-tips-tm {
+  color: #ff002b;
+  margin-right: 8px;
+}
