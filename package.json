@@ -1,12 +1,12 @@
 {
   "name": "p2-e-commerce-home-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "之道前端原创项目 - 电商 PC 首页",
   "main": "scripts/dev.js",
   "scripts": {
     "start": "node scripts/dev.js"
   },
-  "author": "",
+  "author": "之道前端",
   "license": "ISC",
   "devDependencies": {
     "chokidar": "^3.6.0",
